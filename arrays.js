@@ -14,25 +14,25 @@ function addElementToEndOfArray (array, element) {
 }
 
 function destructivelyAddElementToEndOfArray (arr, el) {
-  return arr.push(el);
+  arr.push(el);
 }
 
 function accessElementInArray (arr, idx) {
-  return arr[idx];
+  arr[idx];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (arr) {
-  return arr.shift();
+  arr.shift();
 }
 
 function removeElementFromBeginningOfArray (arr) {
-  return arr.slice(1);
+  arr.slice(1);
 }
 
 function destructivelyRemoveElementFromEndOfArray (arr) {
-  return arr.pop();
+  arr.pop();
 }
 
 function removeElementFromEndOfArray (arr) {
-  return arr.slice(0, arr.length - 1);
+  arr.slice(0, arr.length - 1);
 }
